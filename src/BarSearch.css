@@ -1,0 +1,38 @@
+.barsearch .etiqueta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
+    padding: 6px 16px;
+    border-radius: 12px;
+    margin: 8px 4px;
+
+    background-color: #168eff;
+}
+
+.barsearch .contenedorEtiquetas {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.barsearch {
+    width: 80%;
+}
+
+.barsearch form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    margin: 12px 0;
+}
+
+.barsearch img {
+    width: 12px;
+    cursor: pointer;
+}
+
+.barsearch input {
+    width: 100%;
+}

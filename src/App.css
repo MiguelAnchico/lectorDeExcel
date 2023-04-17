@@ -1,0 +1,28 @@
+.App {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 48px;
+
+  width: 80%;
+  min-height: 80vh;
+  padding: 32px;
+  margin: auto;
+}
+
+h1 {
+  font-family: system-ui !important;
+  font-weight: 700 !important;
+  font-size: 80px !important;
+
+  text-align: center;
+}
+
+h3 {
+  font-family: system-ui !important;
+  font-weight: 700 !important;
+
+  text-align: center;
+}
